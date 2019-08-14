@@ -1,0 +1,204 @@
+*
+{
+    -webkit-appearance: none;
+}
+
+.btn-block{
+    margin-bottom:15px;
+    padding:10px;
+}
+
+
+
+.avatar_user_admin
+{
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 8px;
+    margin-leff:50px;
+    padding: 3px;
+    border: 4px solid #d2d6de;
+    border-radius: 50%;
+
+}
+.img_cau
+{
+    width:100%;
+    margin-top:8px;
+    margin-bottom: 8px;
+    padding: 3px;
+    border: 4px solid #337AB5;
+
+}
+
+
+.small-box .icon {
+    top: 7px;
+    right: 30px;
+    font-size: 60px;
+    transition : none;
+    animation : none;
+}
+
+.small-box:hover .icon {
+    top: 7px;
+    right: 30px;
+    font-size: 60px;
+    transition : none;
+    animation : none;
+
+
+}
+#title_home
+{
+    font-size:40px;
+    font-weight: bold;
+    margin-left : 20px;
+    margin-top:20px;
+}
+
+h4
+{
+    text-decoration: underline;
+}
+
+.info-box-text
+{
+    text-transform: none;
+}
+#brand{
+    width: 108%;
+    margin-left: -5%;
+    margin-bottom: -8px;
+    margin-top: -35px;
+    display: none;
+}
+
+.bg-aqua{
+
+    background-color:#3c8dbc !important;
+}
+
+#menu_mobile{
+    font-size:30px;
+    line-height: 50px;
+}
+#box-menu-mobile{
+    position: fixed;
+    z-index: 99999999999;
+    background-color: #222d32;
+    width: 100%;
+    color: white;
+}
+
+#h3-menu-mobile{
+    color: white;
+}
+@media (min-width:769px) {
+
+    #box-menu-mobile{
+        display:none;
+    }
+}
+
+@media (max-width: 769px){
+    .content{
+        padding:15px;
+        padding-top:15px;
+    }
+    .main-sidebar{
+    padding-top:0px;
+    transform: translate(-230px, 0);
+    }
+    .content-wrapper{
+        margin-left:0px;
+    }
+    #kalaweit-admin{
+        display: none;
+    }
+    .content{
+        margin-top:40px;
+    }
+    .user-panel,#card-title-monthly-report{
+
+        display: none;
+    }
+
+    .btn-export{
+        padding: 15px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    #actualise-report,#actualise-monthly-report{
+        width: 100%;
+        margin-bottom:20px;
+        padding:10px;
+    }
+
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        padding-right:0px;
+        padding-left:0px;
+    }
+
+}
+
+@media(max-width:992px){
+    #card-title-monthly-report{
+        display:none;
+    }
+    #actualise-monthly-report{
+        padding:10px;
+        margin-bottom:20px;
+    }
+}
+
+.w100{
+
+    width:100%;
+
+}
+
+.input-group > div[id^='mceu_'], .box-body > div > div > .input-group {
+    width:100%;
+}
+
+.mt10{
+    margin-top:10px;
+}
+
+.mb10{
+    margin-bottom:10px;
+}
+.mb20{
+    margin-bottom:20px;
+}
+.mb40{
+    margin-bottom:40px;
+}
+
+.progress{
+    height: 35px;
+}
+
+.result_request{
+    max-height: 500px;
+    overflow: auto;
+}
+.result_import{
+    max-height: 250px;
+    overflow: auto;
+}
+.thead-dark{
+    background-color: rgb(55, 72, 80);;
+    color:white;
+    overflow: auto;
+}
+
+textarea{
+    resize:none;
+}
+
+tr:hover {
+    background-color : rgba(55,72,80,0.5) !important;
+    color:white;
+}

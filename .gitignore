@@ -1,0 +1,11 @@
+/Ged/Receipt/R_adhesion/R_*
+/Ged/Receipt/R_asso/R_*
+/Ged/Receipt/R_dulan/R_*
+/Ged/Receipt/R_fisc/R_*
+/Ged/Receipt/R_gibbon/R_*
+/Ged/Receipt/R_forest/R_*
+/Ged/Export_Excel/Export_*
+/Ged/Kalaweit.zip
+/ignore
+/config/config_server.php
+/config/config_mail.php
